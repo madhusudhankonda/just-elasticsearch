@@ -1,0 +1,4 @@
+PUT _bulk
+{"index":{"_index":"movies","_id":"1"}}
+{"title":"The Shawshank Redemption","genre":"Drama","synopsis":"","duration":"","rating":"","actors":"","release_year":"","user_rating":""}
+{"index":{"_index":"movies","_id":"2"}}
