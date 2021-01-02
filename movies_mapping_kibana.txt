@@ -1,0 +1,37 @@
+PUT movies
+{
+  "mappings": { 
+  "properties":{
+      "title":{
+        "type":"text",
+        "fields": {
+          "original":{
+            "type":"keyword"
+          }
+        }  
+      },
+      "genre":{
+        "type": "text"
+      },
+      "synopsis":{
+        "type": "text"
+      },
+      "duration":{
+        "type": "integer"
+      },
+      "rating":{
+        "type": "keyword"
+      },
+      "actors":{
+        "type": "text"
+      },
+      "release_date":{
+        "type": "date",
+        "format": "dd-MM-yyyy"
+      },
+      "user_rating":{
+        "type": "float"
+      }
+    }
+  }
+}
